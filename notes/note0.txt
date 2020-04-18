@@ -1,0 +1,17 @@
+Keep the fishes alive
+
+- start with 2 fish
+- goal is to populate the aquarium
+- should be a more chill game early on but hectic later
+- fish need different things to stay alive
+-- food, oxygen for the fishes, cleaniness, happiness
+
+- point-and-click style. You choose what you want to apply. Everytime you applied something, you need to choose again
+- fishes that are happy enough, will make babies. they need a little less from everything until they grow up to be adult
+- when they die they will make the aquarium dirty
+
+- dirtyness level from 0 to 3 (3 means fast death basically)
+- oxygen also gets impacted, and more fish mean more regular fixing of oxygen tank
+- more fish = give more food
+- the more fishes are in your tank, the unhappier they will become 
+- score is basically maximum fishes you could hold
