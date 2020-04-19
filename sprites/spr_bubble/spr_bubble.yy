@@ -5,7 +5,7 @@
     "name": "spr_bubble",
     "For3D": false,
     "HTile": false,
-    "VTile": true,
+    "VTile": false,
     "bbox_bottom": 43,
     "bbox_left": 2,
     "bbox_right": 45,

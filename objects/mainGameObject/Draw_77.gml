@@ -1,0 +1,2 @@
+/// @description adjust background color to cleaniness
+layer_background_blend(layer_background_get_id("Background"), make_colour_rgb(44,134 + (100 - floor(cleaniness)),224 - (100 - floor(cleaniness))));

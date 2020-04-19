@@ -1,6 +1,10 @@
-/// @description Insert description here
+/// @description reduce cleaniness and some cooldowns
 
-cleaniness -= (0.03 * instance_number(obj_fish))
+cleaniness -= 0.1 + (0.02 * (instance_number(obj_fish)/3))
+
+if (cleaniness < 0) {
+	cleaniness = 0;	
+}
 
 if (cleaniness_cooldown > 0) {
 	cleaniness_cooldown -= 1;	

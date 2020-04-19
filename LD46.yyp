@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "13075973-a8f5-416b-b338-f2552e4a1459",
+            "Value": {
+                "id": "ce0ad27c-d930-4d30-9562-734c6efaaa86",
+                "resourcePath": "objects\\obj_fish3\\obj_fish3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "142e40a9-1063-45c5-90d4-2fa9ca738bb3",
+            "Value": {
+                "id": "61d0e162-084d-431a-8081-e4bf3072d003",
+                "resourcePath": "sprites\\spr_oxygenPump2\\spr_oxygenPump2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "227f5578-b118-4040-9c40-531bc5e719a8",
             "Value": {
                 "id": "422dbd8e-7727-4a1a-a54c-dbf7f0e6bb0b",
@@ -132,6 +148,14 @@
                 "id": "dfafae8c-72ac-4011-843d-440be646f225",
                 "resourcePath": "views\\57815648-4f42-41e6-9c94-db820ddb6ba8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5a9de4f1-288e-451d-9d5d-3dabc39c5487",
+            "Value": {
+                "id": "ff43a512-407e-4d75-bb4d-75d3e6f0bc2a",
+                "resourcePath": "objects\\obj_foodCrumbs\\obj_foodCrumbs.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -239,6 +263,14 @@
             }
         },
         {
+            "Key": "97ec0433-8681-412c-ab2a-4c98e4fa75c7",
+            "Value": {
+                "id": "252e622c-db9b-4199-b7ac-ac3e96b23355",
+                "resourcePath": "sounds\\sound0\\sound0.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9b258f0b-3cff-4d9e-bf8d-b195d146cb70",
             "Value": {
                 "id": "04ee7efe-daf8-4e72-9d29-e0b70cb30202",
@@ -260,6 +292,14 @@
                 "id": "cafe871c-bc52-4bf9-b864-ac99e42f0fd9",
                 "resourcePath": "views\\9e3a5eba-b935-4fa6-8753-4e9d4e6af2ea.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f5d2803-4c87-44a1-8004-a77854fbfc75",
+            "Value": {
+                "id": "e0502922-205c-4018-a316-13328ca4dc03",
+                "resourcePath": "sprites\\spr_fish3\\spr_fish3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -303,11 +343,35 @@
             }
         },
         {
+            "Key": "c31909fd-2f77-44ff-bd72-0c627d19cc9f",
+            "Value": {
+                "id": "4d1400cd-bcc3-466b-a112-10e0c21474ab",
+                "resourcePath": "sprites\\spr_oxygenPump1\\spr_oxygenPump1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb1f55f7-bb17-4ea2-911a-3698391d9e8b",
+            "Value": {
+                "id": "8e9a0e24-bae1-4dfc-8d3f-a84096d2bfab",
+                "resourcePath": "views\\cb1f55f7-bb17-4ea2-911a-3698391d9e8b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cb3c620b-0364-4317-9518-63ccc42f5f8b",
             "Value": {
                 "id": "85828aad-8c8f-4579-96bc-543e0f003c03",
                 "resourcePath": "objects\\obj_fish\\obj_fish.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb65200d-e339-4fa9-af16-b6e295db243a",
+            "Value": {
+                "id": "15feb72f-c3d2-4e7d-8c87-eb94aae02cde",
+                "resourcePath": "sprites\\spr_crumbs\\spr_crumbs.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -332,6 +396,14 @@
                 "id": "3250a5d0-9cf8-4b48-b162-4728bec5b95f",
                 "resourcePath": "objects\\obj_fish1\\obj_fish1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d7709898-e476-4fbd-92b3-2828c28c44e1",
+            "Value": {
+                "id": "5b96d802-f275-494f-a133-cdace2f110ef",
+                "resourcePath": "scripts\\getRandomFish\\getRandomFish.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -400,7 +472,7 @@
         }
     ],
     "script_order": [
-        
+        "d7709898-e476-4fbd-92b3-2828c28c44e1"
     ],
     "tutorial": ""
 }

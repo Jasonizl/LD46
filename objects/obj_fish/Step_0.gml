@@ -1,4 +1,7 @@
-/// @description Insert description here
+/// @description main logic of fishes
+
+
+// movement logic against walls
 if (x < 40) {
 	x = xprevious + 49;
 	image_xscale *= -1;	
@@ -23,11 +26,8 @@ if (x < 40) {
 	direction = (360 - (abs(direction))) + irandom(5);
 }
 
-
-cleaniness = mainGameObject.cleaniness * (abs((5 - age_multiplifier)/5) + 1);
-
 happiness = (food + oxygen + cleaniness) / 3;
 
-if (happiness < 0.0) {
+if (happiness < 0.25) {
 	instance_destroy();
 }
